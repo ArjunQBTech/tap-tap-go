@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  @apply bg-red-200
+  @apply bg-red-200 overflow-x-hidden
 }
 .page{
   @apply flex flex-col items-center justify-start min-h-screen w-screen overflow-x-hidden
