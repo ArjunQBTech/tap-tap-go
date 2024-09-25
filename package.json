@@ -14,5 +14,8 @@
   "type": "module",
   "workspaces": [
     "src/Tap-Tap_Go-frontend"
-  ]
+  ],
+  "dependencies": {
+    "react-router-dom": "^6.26.2"
+  }
 }
