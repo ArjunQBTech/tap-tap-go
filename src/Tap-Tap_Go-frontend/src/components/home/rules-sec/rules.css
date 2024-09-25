@@ -1,0 +1,32 @@
+.home-rules-sec{
+    @apply bg-[var(--primary-background)] text-white w-full flex flex-col items-center py-10
+}
+.hrs-title{
+    @apply  font-extrabold text-8xl text-[var(--primary-text)] mb-6 text-center
+}
+.hrs-tagline{
+    @apply  text-center w-[60%] my-6 min-w-[300px]
+}
+.hrs-card-cont{
+    @apply w-[80%] flex flex-wrap gap-[5%] justify-center items-center mt-10
+}
+
+
+/* rule card  */
+
+.hrs-card{
+    @apply w-[450px] min-h-[500px] relative flex flex-col items-center justify-start pt-[5vh] mb-10
+}
+.hrs-card-bg-img{
+    @apply object-contain  absolute top-0 h-[98%] w-[100%] z-0
+}
+.hrs-card-img{
+    @apply object-contain w-[24%] h-[30%] mb-10
+}
+.hrs-card-text{
+    @apply w-[60%] 
+}
+.hrs-card-count{
+    @apply absolute text-5xl bottom-[-5%] font-semibold rounded-full px-6 py-2 z-10 bg-[var(--primary-background)];
+    border: 5px solid rgb(192,155,75);
+}
