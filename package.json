@@ -16,6 +16,11 @@
     "src/Tap-Tap_Go-frontend"
   ],
   "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
     "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
   }
 }
