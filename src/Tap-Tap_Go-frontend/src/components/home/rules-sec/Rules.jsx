@@ -13,7 +13,7 @@ const Rules = () => {
         <div className="hrs-card-cont">
             {
                 Text.ruleCardData?.map((card,index)=>(
-                    <RuleCard key={index} card={card}/>
+                    <RuleCard key={index} card={card} index={index}/>
                 ))
             }
         </div>

@@ -13,5 +13,5 @@ body{
   --primary-background: rgb(39, 34, 33);
   --primary-text: rgb(255, 199, 159);
   --secondary-text: rgb(255, 255, 255);
-
+  --rules-frame:rgb(192,155,75);
 }
