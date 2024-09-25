@@ -1,0 +1,8 @@
+.about{
+    @apply bg-cover bg-center w-full h-[45vh] relative;
+}
+
+.overlay{
+    background: radial-gradient(circle, rgba(2,0,36,0.6727941176470589) 0%, rgba(39,34,33,0.8352591036414566) 0%);
+    @apply absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center;
+}
