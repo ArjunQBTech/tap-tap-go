@@ -1,12 +1,14 @@
 import { useState } from 'react';
+import { Routes,Route } from 'react-router-dom';
+import HomePage from './components/page/HomePage';
 
 function App() {
 
 
   return (
-    <div className="App">
-      Welcome to Tap Tap Go
-    </div>
+    <Routes>
+      <Route exact path="/" element={<HomePage />} />
+    </Routes>
   );
 }
 
