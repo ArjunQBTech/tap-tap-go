@@ -5,3 +5,10 @@
 body{
   @apply bg-red-400
 }
+
+:root{
+  --primary-background: rgb(39, 34, 33);
+  --primary-text: rgb(255, 199, 159);
+  --secondary-text: rgb(255, 255, 255);
+  --red : rgba(222,66,66,1);
+}

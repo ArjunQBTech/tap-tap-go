@@ -1,0 +1,32 @@
+.button{
+    @apply rounded-full;
+}
+
+.sm{
+    @apply text-sm px-2 py-1 my-1;
+}
+
+.md{
+    @apply text-base px-4 py-1 my-2
+}
+
+.lg{
+    @apply text-base px-6 py-2 my-3
+}
+
+.xl{
+    @apply text-lg px-8 py-3 my-4
+}
+
+.xxl{
+    @apply text-xl px-10 py-3 my-5
+}
+
+.primary{
+    background-color: var(--red);
+    color:white;
+}
+
+.primary::backdrop{
+    background-color: rgba(0,0,0,0.5);
+}
