@@ -1,0 +1,25 @@
+.home-rules-sec{
+    @apply bg-[var(--primary-background)] text-white w-full flex flex-col items-center py-10
+}
+.hrs-title{
+    @apply  font-extrabold text-8xl text-[var(--primary-text)] mb-6
+}
+.hrs-tagline{
+    @apply text-base text-center w-[60%]
+}
+.hrs-card-cont{
+    @apply w-[80%] flex flex-wrap gap-[5%] justify-center items-center mt-10
+}
+
+
+/* rule card  */
+
+.hrs-card{
+    @apply max-w-[450px] min-h-[600px] relative
+}
+.hrs-card-img{
+    @apply object-contain p-10
+}
+.hrs-card-text{
+    
+}
