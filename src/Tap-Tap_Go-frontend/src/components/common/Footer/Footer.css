@@ -1,0 +1,11 @@
+.footer{
+    @apply bg-[--primary-background] text-[--primary-text] flex justify-between items-center h-10 px-10;
+}
+
+.links{
+    @apply w-24 flex justify-between;
+}
+
+.socials{
+    @apply flex justify-between w-28;
+}
