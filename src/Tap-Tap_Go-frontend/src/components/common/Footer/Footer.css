@@ -1,0 +1,15 @@
+.footer{
+    @apply w-screen bg-[--primary-background] text-[--primary-text] flex justify-between items-center h-10 px-10 pb-8 pt-14;
+}
+
+.copyright{
+    @apply w-full
+}
+
+.links{
+    @apply flex justify-center gap-5 w-full
+}
+
+.socials{
+    @apply flex justify-end gap-4 w-full
+}

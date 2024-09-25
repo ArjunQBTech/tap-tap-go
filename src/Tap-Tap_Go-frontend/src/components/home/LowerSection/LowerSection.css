@@ -1,0 +1,11 @@
+.lowerSection{
+    @apply w-full bg-[--primary-background] flex flex-col items-center justify-center;
+}
+
+.heading{
+    @apply text-[--primary-text] text-5xl font-bold my-5;
+}
+
+.para{
+    @apply text-[--secondary-text] text-base w-[49%] text-center my-3
+}

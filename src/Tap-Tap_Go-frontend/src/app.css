@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 body{
-  @apply bg-red-400
+  @apply bg-red-200 overflow-x-hidden
+}
+.page{
+  @apply flex flex-col items-center justify-start min-h-screen w-screen overflow-x-hidden
+
 }
 
 :root{
   --primary-background: rgb(39, 34, 33);
   --primary-text: rgb(255, 199, 159);
   --secondary-text: rgb(255, 255, 255);
+  --rules-frame:rgb(192,155,75);
   --red : rgba(222,67,67,1);
 }
