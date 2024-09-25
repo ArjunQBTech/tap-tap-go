@@ -1,0 +1,37 @@
+{
+  "canisters": {
+    "Tap-Tap_Go-backend": {
+      "main": "src/Tap-Tap_Go-backend/main.mo",
+      "type": "motoko"
+    },
+    "Tap-Tap_Go-frontend": {
+      "dependencies": [
+        "Tap-Tap_Go-backend"
+      ],
+      "source": [
+        "src/Tap-Tap_Go-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Tap-Tap_Go-frontend"
+    },
+    "internet_identity": {
+      "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
+      "frontend": {},
+      "remote": {
+        "id": {
+          "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+        }
+      },
+      "type": "custom",
+      "wasm": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity_dev.wasm.gz"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
