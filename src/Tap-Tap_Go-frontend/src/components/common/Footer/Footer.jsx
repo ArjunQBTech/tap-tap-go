@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div className='footer'>
             <div className="copyright">
-                Copyright @ 2024 Tap-Tap-Go
+                Copyright @ {new Date().getFullYear()} Tap-Tap-Go
             </div>
             <div className='links'>
                 <a href='#'>Home</a>

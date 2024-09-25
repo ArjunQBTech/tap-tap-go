@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../components/common/Footer/Footer'
-import LowerSection from '../components/UI/LowerSection/LowerSection'
+import LowerSection from '../components/home/LowerSection/LowerSection'
 
 export default function HomePage() {
   return (

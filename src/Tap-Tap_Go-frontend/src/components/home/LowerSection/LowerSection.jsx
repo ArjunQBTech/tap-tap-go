@@ -1,5 +1,6 @@
 import React from 'react'
 import './LowerSection.css'
+import Button from '../../common/Button'
 
 export default function LowerSection() {
   return (
@@ -8,13 +9,11 @@ export default function LowerSection() {
         <h1>Ready to dive in?</h1>
       </div>
       <div className='para'>
-        <p>
-          Get ready for a fast-paced tapping adventure that will keep you on your toes! Compete for high scores and challenge your friends in this addictive game.
-        </p>
+        Get ready for a fast-paced tapping adventure that will keep you on your toes! Compete for high scores and challenge your friends in this addictive game.
       </div>
-      <div className='btnPlay'>
+      <Button size="xl">
         Play Now
-      </div>
+      </Button>
     </div>
   )
 }
