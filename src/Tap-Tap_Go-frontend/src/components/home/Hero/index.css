@@ -1,0 +1,21 @@
+.hero{
+    @apply min-h-screen max-h-screen bg-[--primary-background] w-screen
+}
+
+.hero_overlay {
+    @apply w-full h-full absolute top-0 left-0 opacity-50 z-50;
+    background: radial-gradient(black,var(--primary-background));
+}
+
+.hero_content{
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50
+    flex items-center justify-center flex-col
+}
+
+.hero_title{
+    @apply text-[--primary-text] lg:text-5xl font-bold text-center
+}
+
+.hero_subtitle{
+    @apply text-white lg:text-base text-center mt-4
+}
