@@ -1,0 +1,31 @@
+.button{
+    @apply rounded-full disabled:cursor-not-allowed disabled:opacity-50 transition-all delay-75 duration-100;
+}
+
+.sm{
+    @apply text-sm px-2 py-1 my-1 
+
+}
+
+.md{
+    @apply text-base px-4 py-1 my-2 
+}
+
+.lg{
+    @apply text-base px-6 py-2 my-3 
+}
+
+.xl{
+    @apply text-lg px-8 py-2 my-4 
+}
+
+.xxl{
+    @apply text-xl px-10 py-2 my-5 
+
+}
+
+.primary{
+   @apply bg-gradient-to-tr from-[--red] to-[rgba(209,63,63,1)]
+   hover:bg-gradient-to-tr hover:from-[rgba(209,63,63,1)] hover:to-[--red]
+   text-white shadow-md hover:shadow-lg
+}
