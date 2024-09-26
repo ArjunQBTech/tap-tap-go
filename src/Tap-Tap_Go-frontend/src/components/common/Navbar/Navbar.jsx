@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import Button from '../Button'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
 
+    const nav=useNavigate()
     const [navBg,setNavBg]=useState(false)
 
     const changeNavBg = () =>
@@ -16,17 +18,17 @@ const Navbar = () => {
   return (
     <div className={navBg?'nav-main-cont':'nav-main-cont2'}>
         <div className="nav-cont">
-            <h1 className="nav-title">
+            <a href='#home' onClick={()=>nav('/#home')} className="nav-title">
                 Cutie Hunters
-            </h1>
+            </a>
             <div className="nav-link-cont">
-                <a className="nav-link">
+                <a href='#home' onClick={()=>nav('/#home')} className="nav-link">
                     Home
                 </a>
-                <a className="nav-link">
+                <a href='#about' onClick={()=>nav('/#about')} className="nav-link">
                     About
                 </a>
-                <a className="nav-link">
+                <a href='#rules' onClick={()=>nav('/#rules')} className="nav-link">
                     Rules
                 </a>
             </div>

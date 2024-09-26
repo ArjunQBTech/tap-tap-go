@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
-  @apply bg-red-200 overflow-x-hidden relative
+  @apply bg-red-200 overflow-x-hidden relative;
 }
 .page{
   @apply flex flex-col items-center justify-start min-h-screen w-screen overflow-x-hidden
