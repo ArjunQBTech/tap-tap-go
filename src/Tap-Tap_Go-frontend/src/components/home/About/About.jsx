@@ -13,7 +13,7 @@ export default function About() {
   return (
     <div className='about' style={style}>
       <div className='overlay'>
-        <Title>ABOUT US</Title>
+        <Title>About Us</Title>
         <div className='para'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ut nulla labore nihil, eveniet quae quo minima quidem quis omnis eligendi, iure voluptate ullam, pariatur explicabo beatae provident error commodi nam inventore perferendis. Eius, cumque.
         </div>

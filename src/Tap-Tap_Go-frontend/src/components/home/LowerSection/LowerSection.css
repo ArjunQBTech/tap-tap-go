@@ -1,11 +1,24 @@
 .lowerSection{
-    @apply w-full bg-[--primary-background] flex flex-col items-center justify-center;
+    @apply w-screen bg-[--primary-background] flex flex-col items-center justify-center my-0;
 }
 
 .heading{
-    @apply text-[--primary-text] text-5xl font-bold my-5;
+    @apply text-[--primary-text] text-5xl font-bold my-5 min-w-full text-center;
 }
 
 .para{
-    @apply text-[--secondary-text] text-base w-[49%] text-center my-3
+    @apply text-[--secondary-text] text-base w-[49%] text-center my-3;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .heading{
+        @apply text-4xl;
+    }
+
+    .para{
+        @apply w-[85%];
+    }
+    
 }

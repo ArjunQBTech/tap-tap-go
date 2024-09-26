@@ -8,7 +8,6 @@ import About from '../components/home/About/About'
 export default function HomePage() {
   return (
     <div className='home'>
-      HomePage works!
       <Hero/>
       <About />
       <Rules/>
