@@ -4,7 +4,7 @@ import './index.css';
 
 const IIWallet = () => {
     return (
-        <button>
+        <button title='Connect with Internet Identity'>
             <div className='wallets'>
                 <img src="/assets/images/ii.png" alt='internet-identity' width={36} height={36} />
                 <span>Internet Identity</span>
@@ -15,7 +15,7 @@ const IIWallet = () => {
 
 const NFIDWallet = () => {
     return (
-        <button>
+        <button title='Connect with NFID'>
             <div className='wallets'>
                 <img src="/assets/images/nfid.png" alt='nfid' width={36} height={36} />
                 <span>NFID</span>
