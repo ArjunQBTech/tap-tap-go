@@ -5,7 +5,7 @@ import RuleCard from './RuleCard'
 
 const Rules = () => {
   return (
-    <div className='home-rules-sec'>
+    <div className='home-rules-sec' id='rules'>
         <h1 className="hrs-title">Rules to Play</h1>
         <p className="hrs-tagline">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid veritatis ea soluta error. Porro quia dignissimos perspiciatis! Sed quos beatae nihil? Repudiandae molestias harum, id consequatur veritatis sed in nulla.

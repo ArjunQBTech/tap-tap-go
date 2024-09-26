@@ -1,0 +1,23 @@
+.nav-main-cont{
+    @apply w-screen flex justify-center bg-[var(--primary-background)] fixed top-0 z-[200]
+}
+.nav-main-cont2{
+    @apply w-screen flex justify-center bg-[var(--primary-background-transparent)] absolute top-0 z-[200]
+}
+.nav-cont{
+    @apply w-[90%] flex justify-between items-center text-white h-[70px]
+}
+.nav-title{
+    @apply font-semibold text-4xl text-[var(--primary-text)] cursor-pointer
+}
+.nav-link-cont{
+    @apply w-[30%]  flex h-full
+}
+.nav-link{
+    @apply cursor-pointer text-lg font-semibold  w-1/3 text-center  flex items-center justify-center ;
+    border-color: var(--primary-text);
+    height: calc(100% - 2px);
+}
+.nav-connect-btn{
+
+}

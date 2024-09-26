@@ -1,5 +1,5 @@
 .hero{
-    @apply min-h-screen max-h-screen bg-[--primary-background] w-screen
+    @apply min-h-screen max-h-screen bg-[--primary-background] w-screen relative
 }
 
 .hero_overlay {
