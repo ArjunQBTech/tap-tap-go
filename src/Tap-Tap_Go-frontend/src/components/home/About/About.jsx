@@ -11,7 +11,7 @@ export default function About() {
   }
 
   return (
-    <div className='about' style={style}>
+    <div className='about' id='about' style={style}>
       <div className='overlay'>
         <Title>About Us</Title>
         <div className='para'>
