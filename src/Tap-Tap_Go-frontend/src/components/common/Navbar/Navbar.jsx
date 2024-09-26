@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import Button from '../Button'
+import ConnectWallet from '../ConnectWallet'
 import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
@@ -32,7 +33,8 @@ const Navbar = () => {
                     Rules
                 </a>
             </div>
-            <Button size="lg" title={"Connect"}>{"Connect"}</Button>
+            {/* <Button size="lg" title={"Connect"}>{"Connect"}</Button> */}
+            <ConnectWallet/>
         </div>
     </div>
   )

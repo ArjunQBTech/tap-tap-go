@@ -1,0 +1,48 @@
+.modal {
+    @apply  shadow-md fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50;
+}
+
+.modal-dialog{
+    @apply bg-white shadow-lg rounded-lg overflow-visible;
+}
+
+.modal-dialog-container {
+    @apply  w-full px-6 py-4
+}
+
+
+.modal-header{
+    @apply  flex justify-center items-center mb-4;
+}
+
+.modal-close-btn{
+    @apply  absolute top-3 right-2 text-gray-500 hover:text-gray-700 text-xl;
+}
+
+.modal-back-btn{
+    @apply  absolute top-3 left-2 text-gray-500 hover:text-gray-700 text-xl;
+}
+
+.modal-body{
+    @apply flex flex-col justify-between items-center gap-3;
+}
+
+.modal-text{
+    @apply  text-lg font-semibold;
+}
+
+.modal-description{
+    @apply text-sm text-gray-500;
+}
+
+.small{
+    @apply w-1/3;
+}
+
+.medium{
+    @apply w-1/2;
+}
+
+.large{
+    @apply w-2/3;
+}
