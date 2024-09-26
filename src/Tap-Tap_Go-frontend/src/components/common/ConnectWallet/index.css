@@ -1,0 +1,43 @@
+.connect-wallet{
+    @apply relative;
+}
+
+.wallet-popover{
+    @apply bg-[--primary-background] border border-white rounded-lg pt-3 
+    flex flex-col justify-between items-center gap-2 opacity-0
+    absolute top-16 -right-1/2 -translate-x-1/2 z-[100] w-full;
+}
+
+.wallet-content{
+    @apply flex items-center justify-between w-full h-full outline-white gap-2 relative overflow-y-hidden;
+}
+
+.group:hover .wallet-popover{
+    @apply opacity-100
+    transition-all duration-[300ms] delay-75 ease-in
+    ;
+}
+
+.wallet-popover-content {
+    @apply flex flex-col items-center justify-between w-full
+}
+
+.wallet-popover-content button{
+    @apply w-full h-full;
+}
+
+.wallets:hover{
+    @apply bg-slate-800 transition-all duration-300 ease-in;
+}
+
+.wallet-popover-content button .wallets{
+    @apply w-full h-full p-2 text-center border-t border-white flex items-center justify-between gap-2;
+}
+
+.wallets img{
+    @apply p-1 bg-[#3D3F47] rounded-md;
+}
+
+.caret{
+    @apply absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-full w-0 h-0 border-x-8 border-x-transparent border-b-8 border-b-white;
+}
