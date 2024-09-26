@@ -1,15 +1,71 @@
 .footer{
-    @apply w-screen bg-[--primary-background] text-[--primary-text] flex justify-between items-center h-10 px-10 pb-8 pt-14;
+    @apply w-full min-h-[70vh] text-[--primary-text] flex flex-col items-end bg-cover bg-center relative overflow-y-hidden
+    /* bg-[--primary-background] */
 }
 
-.copyright{
+.footer-overlay{
+    @apply w-full h-full absolute top-0 left-0 ;
+    background: linear-gradient(0deg, rgba(39,34,33,0.94) 52%, rgba(39,37,33,0.7512254901960784) 100%);
+}
+
+.footer-upper-box{
+    @apply w-full flex flex-col justify-between items-center px-10 py-5 min-h-[55vh];
+}
+
+.footer-heading{
+    @apply text-8xl my-5 font-bold min-w-full text-center z-10 tracking-wider;
+}
+
+.footer-character{
+    @apply w-[65vh] h-[80%] absolute bg-contain bg-center bg-no-repeat z-10 left-[50%] translate-x-[-40%]  bottom-0
+}
+
+.footer-para{
+    @apply text-[--secondary-text] text-base w-[49%] text-center my-3 z-10;
+}
+
+.footer-lower-box{
+    @apply w-full flex flex-row  justify-between items-center px-10 min-h-fit max-h-20 z-10 absolute bottom-0 bg-black bg-opacity-15
+    /* background: linear-gradient(0deg, rgba(4, 3, 3, 1) 0%, rgba(11, 11, 4, 0.045) 35%); */
+}
+
+.footer-lower-box-copyright{
     @apply w-full
 }
 
-.links{
-    @apply flex justify-center gap-5 w-full
+.footer-lower-box-links{
+    @apply flex justify-center gap-5 w-full z-10 text-lg font-semibold
 }
 
-.socials{
-    @apply flex justify-end gap-4 w-full
+.footer-lower-box-links a:hover{
+    @apply scale-[1.2] transition-all duration-[0.4s]
 }
+
+.footer-lower-box-socials{
+    @apply flex justify-end gap-4 w-full text-[24px] h-10 items-center
+}
+
+.footer-lower-box-socials a:hover{
+    @apply scale-[1.3] transition-all duration-[0.4s]
+} 
+
+.twitter-icon, .fb-icon, .insta-icon{
+    @apply cursor-pointer text-[--primary-text]
+}
+
+.twitter-icon:hover{
+    @apply text-[--secondary-text]
+}
+
+.yt-icon:hover{
+    @apply text-[#FF0000]
+}
+
+.insta-icon:hover{
+    @apply text-[#C13584]
+}
+
+
+
+
+
